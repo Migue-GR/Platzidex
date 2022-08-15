@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pokedex Platzi</string>
+    <string name="title">Platzidex</string>
+    <string name="press_again_to_exit">Presiona de nuevo para salir</string>
+    <string name="pokes_not_found">No se encontró ningún pokémon</string>
+    <string name="evolution_chain">Cadena evolutiva</string>
+    <string name="select_another_pokemon">Ya estás en el detalle de este pokémon, selecciona otro</string>
+    <string name="evolution_chain_not_found">No se encontró la cadena evolutiva, revisa tu conección a internet e intenta de nuevo</string>
+    <string name="error_getting_a_pokemon">Error al obtener los datos de %s, revisa tu internet</string>
+    <string name="base_happiness">Felicidad base:</string>
+    <string name="capture_ratio">Ratio de captura:</string>
+    <string name="egg_groups">Grupos huevo:</string>
+</resources>

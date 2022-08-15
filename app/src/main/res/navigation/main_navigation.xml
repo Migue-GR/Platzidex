@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation.xml"
+    app:startDestination="@id/pokeListFragment">
+
+    <fragment
+        android:id="@+id/pokeListFragment"
+        android:name="com.pokedexplatzi.view.PokeListFragment"
+        android:label="PokeListFragment"
+        tools:layout="@layout/fragment_poke_list">
+        <action
+            android:id="@+id/action_pokeListFragment_to_pokeDetailFragment"
+            app:destination="@id/pokeDetailFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            app:popUpTo="@id/pokeListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokeDetailFragment"
+        android:name="com.pokedexplatzi.view.PokeDetailFragment"
+        android:label="PokeDetailFragment"
+        tools:layout="@layout/fragment_poke_detail">
+        <argument
+            android:name="pokemon"
+            app:argType="com.pokedexplatzi.data.model.local.Pokemon" />
+        <action
+            android:id="@+id/action_pokeDetailFragment_to_evolutionChainDetailFragment"
+            app:destination="@id/pokeDetailFragment"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right"
+            app:popUpTo="@id/pokeListFragment" />
+    </fragment>
+</navigation>
