@@ -12,10 +12,10 @@ La app se adapta a todos los cambios de configuración. (split screen, landscape
 
 <img src="images/3.png" width="300">
 
-<img src="images/4.png" width="300">
+<img src="images/4.png" width="600">
 
-<img src="images/5.png" width="300">
+<img src="images/5.png" width="600">
 
-<img src="images/6.png" width="300">
+<img src="images/6.png" width="600">
 
 <img src="images/7.png" width="300">
